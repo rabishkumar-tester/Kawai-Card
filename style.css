@@ -118,8 +118,15 @@ body {
     .card {
         width: 90vw;
         height: 80vh;
+        margin-right: 5vw;
+        padding: 1.5rem;
+
     }
 
+    .top img {
+        width: 100%;
+        object-position: -100px;
+    }
     .middle {
         height: 5%;
         font-size: 1rem;
@@ -143,6 +150,8 @@ body {
     .bottom  .profile {
         display: flex;
     }
+
+
 
     .bottom .profile .pf-image {
         height: 4rem;
