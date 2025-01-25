@@ -107,3 +107,7 @@ body {
 .profile > .pf-name {
     margin-left: 1rem;
 }
+
+.audio {
+    display: none;
+}
