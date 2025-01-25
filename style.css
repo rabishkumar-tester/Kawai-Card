@@ -111,3 +111,45 @@ body {
 .audio {
     display: none;
 }
+
+
+@media (max-width: 480px) {
+
+    .card {
+        width: 90vw;
+        height: 80vh;
+    }
+
+    .middle {
+        height: 5%;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .bottom {
+        height: 15%;
+    }
+    .bottom > .date {
+        font-size: 1rem;
+    }
+
+    .bottom .title {
+        font-size: 1.6rem;
+    }
+
+    .bottom .description {
+        font-size: 1rem;
+    }
+
+    .bottom  .profile {
+        display: flex;
+    }
+
+    .bottom .profile .pf-image {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .bottom .profile  .pf-name {
+        font-size: 1rem;
+    }
+}
